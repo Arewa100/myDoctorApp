@@ -1,0 +1,88 @@
+.landingpage {
+    width: 100%;
+    height: 100%;
+    /* background-color: #14619F; */
+}
+
+.doctorPicsDiv {
+    width: 100%;
+    height: 486px;
+    background-color: grey;
+}
+
+.bodySection {
+    width: 100%;
+    height: 669px;
+    background-image: url(../assets/image/iconImage.svg);
+}
+
+.whatWeDo {
+    width: 740px;
+    height: 361px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatWeCanDoOuterDiv {
+    width: inherit;
+    height: inherit;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+
+}
+.text {
+    width: 455px;
+    height: 361px;
+    /* background-color: yellow; */
+}
+
+.text h1 {
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 60px;
+    width: 455px;
+    height: 70px;
+}
+
+.text span {
+    color: #F41010;
+}
+.contentBox {
+    width: 455px;
+    height: 291px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow:  rgb(99, 99, 99) 5px 5px 5px 1px;
+}
+
+.contentBox p {
+    width: 410px;
+    height: 188px;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-style: italic;
+    font-weight:200;
+    padding-left: 13px;
+}
+
+.getStarted {
+    width: 431px;
+    height: 46px;
+    background-color: #F41010;
+    font-size: 20px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-left: 13px;
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.getStarted:hover {
+    background-color: black;
+}
