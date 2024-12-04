@@ -1,7 +1,22 @@
 import CustomButton from "../reusables/CustomButton"
 import style from "../styles/navbar.module.css"
 import Logo from "../reusables/Logo"
+import { useNavigate } from "react-router-dom"
 const NavBar = ()=> {
+
+    const pages = ["login", "signup"]
+    const navigate = useNavigate();
+
+    const handlClick = (event)=> {
+        const currentButton = event.target.value;
+        pages.filter((page)=> {
+            if(page.includes(currentButton.toLowerCase())) {
+                navigate(`/${page}`)
+            }
+        })
+    }
+
+
     return(
         <>
         <div className={style.externalDiv}>
@@ -18,8 +33,8 @@ const NavBar = ()=> {
                     </ul>
 
                     <div className={style.buttons}>
-                        <CustomButton style={style.signup} type="submit" textContent="Sign up"/>
-                        <CustomButton style={style.signup} type="submit" textContent="Login"/>
+                        <CustomButton style={style.signup} type="submit" textContent="Sign up" onClick={handlClick} value="signup"/>
+                        <CustomButton style={style.signup} type="submit" textContent="Login" onClick={handlClick} value="login"/>
                     </div>
                 </div>
              </div>

@@ -100,7 +100,7 @@ const Signup = () => {
           </div>
 
           <div className={style.alreadyHaveAccount}>
-            <p>Already have an account?<Link to={'/'}>login</Link></p>
+            <p>Already have an account?<Link to={'/login'}>login</Link></p>
           </div>
         </form>
       </div>
