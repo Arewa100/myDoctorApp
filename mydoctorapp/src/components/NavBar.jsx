@@ -1,12 +1,13 @@
 import CustomButton from "../reusables/CustomButton"
 import style from "../styles/navbar.module.css"
+import Logo from "../reusables/Logo"
 const NavBar = ()=> {
     return(
         <>
         <div className={style.externalDiv}>
              <div className={style.navbar}>
                 <div>
-                    <h1><span>MY</span>DOCTOR</h1>
+                    <Logo/>
                 </div>
                 <div className={style.buttonAndHomeDiv}>
 

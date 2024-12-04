@@ -1,6 +1,7 @@
 .landingpage {
-    width: 100%;
+    width: 1440px;
     height: 100%;
+    margin: auto;
     /* background-color: #14619F; */
 }
 
@@ -41,7 +42,7 @@
 }
 
 .text h1 {
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-size: 60px;
     width: 455px;
@@ -62,19 +63,28 @@
 .contentBox p {
     width: 410px;
     height: 188px;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: italic;
-    font-weight:200;
+    font-weight:lighter;
     padding-left: 13px;
+    animation-name: example;
+    animation-duration: 4s;
 }
+
+@keyframes example {
+    0%    { opacity: 0; }
+    20%   { opacity: 1; }
+    80%   { opacity: 0; }
+    100%  { opacity: 1; }
+  }
 
 .getStarted {
     width: 431px;
     height: 46px;
     background-color: #F41010;
     font-size: 20px;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-weight: bold;
     border: none;
