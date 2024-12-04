@@ -5,10 +5,10 @@
     border-left: none;
     border-right: none;
     border-bottom: 1px solid grey;
-    width: 170px;
+    width: 250px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 200;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .input:hover {
@@ -36,8 +36,8 @@
     background-color: #F41010;
     border: .002rem solid rgba(255, 255, 255, 0.628);
     border-radius: 6px;
-    width: 70px;
-    height: 26px;
+    width: 100px;
+    height: 30px;
     transition: background-color 0.3s ease;
 }
 
@@ -46,8 +46,8 @@
 }
 
 .form {
-    width: 200px;
-    height:250px;
+    width: 300px;
+    height:300px;
     margin: auto;
     border:.02rem solid grey;
     background-color: white;
@@ -56,6 +56,12 @@
 
 .login {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: blue; */
+    margin-top: 30px;
+}
+
+.login p {
+    margin-top: 30px;
 }
 
 .dontHaveAccount {
@@ -65,7 +71,7 @@
 
 .dontHaveAccount p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 6px;
+    font-size: 10px;
     margin-left: 8px;
     font-weight: 200;
     margin-top: 5px;
@@ -74,7 +80,7 @@
 
 .dontHaveAccount p a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 6px;
+    font-size: 10px;
     color:#F41010;;
     font-weight: 200;
     margin-top: 1px;

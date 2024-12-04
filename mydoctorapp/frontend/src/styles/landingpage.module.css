@@ -2,24 +2,26 @@
     width: auto;
     height: 100%;
     margin: auto;
-    background-color: #14619F;
+    /* background-color: #14619F; */
 }
 
 .doctorPicsDiv {
     max-width: 1255px;
     height: 486px;
     margin: auto;
-    background-color: rgb(80, 37, 37);
+    background-color: #D9D9D9;
 }
 
 .doctorPicsDiv img {
-    max-width: 1255px;
+    width: 1255px;
     height: 486px;
+    margin: auto;
 }
 
 .bodySection {
-    width: 100%;
+    width: 1255px;
     height: 669px;
+    margin: auto;
     background-image: url(../assets/image/iconImage.svg);
 }
 
