@@ -84,10 +84,12 @@
 
 .loginDiv {
     text-align: center;
-    width: 100%;
-    height: 400px;
-    background-color: #F41010;
+    height: 100vh;
+    background-color: #150404;
     background-image: url(../assets/image/iconImage.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     margin: auto;
     display: flex;
 }
